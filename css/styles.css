@@ -1,0 +1,57 @@
+@font-face {
+  font-family: 'TastyPaste';
+  src: url('../fonts/tastypaste-handdrawnfont-regular.otf') format('opentype');
+}
+
+html, body {
+  height: 100%;
+}
+
+body, h1, h2 {
+  margin: 0;
+}
+
+body {
+  font-family: 'TastyPaste';
+  background: #1E8CBF;
+  color: #FFD049;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+
+button {
+  font-size: 70px;
+  font-family: 'TastyPaste';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 20px solid #2CACE8;
+  padding: 40px 80px;
+  outline: none;
+  background: #FFD049;
+  color: #fff;
+  opacity: 0;
+}
+
+h1 {
+  font-size: 300px;
+  transform: translateY(-1000px);
+}
+
+h2 {
+  padding-left: 25px;
+  font-size: 100px;
+  transform: translateY(1000px);
+}
+
+.hand {
+  position: absolute;
+  top: 50%;
+  right: -60px;
+  width: 600px;
+  fill: #2CACE8;
+  transform: translate(800px, -35%);
+}
